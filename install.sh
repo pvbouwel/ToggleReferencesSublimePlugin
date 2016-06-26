@@ -18,7 +18,7 @@ if [ -d "${SUBLIME_USER_PLUGIN_DIR}" ]
 then
   cp -v toggle_references.py "${SUBLIME_USER_PLUGIN_DIR}"
   echo "Script should be put in its place"
-  echo "Read Readme.md to get instructions on usage"
+  echo "Read README.md to get instructions on usage"
 else
   echo "This install script is only valid for Sublime 3 and for Mac OS X/Linux"
   echo "Seems like the right directories are not setup."

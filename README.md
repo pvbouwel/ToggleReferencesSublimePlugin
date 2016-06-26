@@ -38,7 +38,7 @@ The advantage of key-bindings is that you can execute the key-binding to trigger
  toggle_references.py.  This allows to quickly toggle references.
 
 #### Mac
-Go to Sublime Text -> Preferences -> Keybinindgs - user
+Go to `Sublime Text` -> `Preferences` -> `Keybindings - user`
 Enter a keymap like (watch out as there are a lot of key bindings already so do
 not override another one:
 `[{ "keys": ["alt+r"], "command": "toggle_references" }]`
