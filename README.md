@@ -28,7 +28,7 @@ By following these installation instructions you will put the plugin code in the
 
 ```
 cd /tmp
-git clone <github-URI>
+git clone https://github.com/pvbouwel/ToggleReferencesSublimePlugin
 cd ToggleReferencesSublimePlugin/
 bash install.sh
 ```
@@ -41,10 +41,10 @@ The advantage of key-bindings is that you can execute the key-binding to trigger
 Go to Sublime Text -> Preferences -> Keybinindgs - user
 Enter a keymap like (watch out as there are a lot of key bindings already so do
 not override another one:
-[{ "keys": ["alt+r"], "command": "toggle_references" }]
+`[{ "keys": ["alt+r"], "command": "toggle_references" }]`
 
 ## Run manually
-Open the sublime console 'ctrl+`' and run the command using
+Open the sublime console `'ctrl+\`'` and run the command using
 `view.run_command('toggle_references')`.
 
 
