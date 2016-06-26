@@ -44,7 +44,7 @@ not override another one:
 `[{ "keys": ["alt+r"], "command": "toggle_references" }]`
 
 ## Run manually
-Open the sublime console `'ctrl+\`'` and run the command using
+Open the sublime console `` ctrl + ` `` and run the command using
 `view.run_command('toggle_references')`.
 
 
